@@ -67,9 +67,6 @@ Este projeto foi construído com as seguintes tecnologias:
 | **HTML5** | Estruturação semântica do conteúdo. |
 | **CSS3** | Estilização avançada, com Flexbox, Grid Layout e Variáveis CSS. |
 | **JavaScript (ES6+)** | Manipulação do DOM, interatividade e lógica do dashboard. |
-| **Chart.js** | Biblioteca para a criação de gráficos interativos e elegantes. |
-| **Leaflet.js** | Biblioteca para a criação de mapas geográficos interativos. |
-| **Font Awesome** | Biblioteca de ícones para uma interface mais visual. |
 
 <br>
 
