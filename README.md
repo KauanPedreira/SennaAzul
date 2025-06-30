@@ -40,7 +40,7 @@ Projeto desenvolvido sob a orientação da **Professora Flávia Blum**.
 
 Veja o projeto em ação através do link abaixo:
 
-**[Ver demonstração ao vivo](URL_DO_SEU_GITHUB_PAGES_AQUI)**
+**[Ver demonstração ao vivo](https://kauanpedreira.github.io/SennaAzul/)**
 
 <br>
 
