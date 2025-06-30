@@ -32,9 +32,7 @@ Projeto desenvolvido sob a orientação da **Professora Flávia Blum**.
 <br>
 
 ## ✨ Preview
-
-
-(![Captura de tela 2025-06-29 224123](https://github.com/user-attachments/assets/efb14cba-499c-42f1-9c55-479e0bd0cff7)
+![Captura de tela 2025-06-29 224123](https://github.com/user-attachments/assets/efb14cba-499c-42f1-9c55-479e0bd0cff7)
 
 <br>
 
