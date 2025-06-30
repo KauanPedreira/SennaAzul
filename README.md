@@ -33,9 +33,8 @@ Projeto desenvolvido sob a orientação da **Professora Flávia Blum**.
 
 ## ✨ Preview
 
-> **Nota:** Substitua a URL abaixo por um link para um screenshot ou GIF do seu projeto em ação! Você pode arrastar a imagem diretamente para a área de texto do GitHub para fazer o upload.
 
-![Preview do Dashboard Sena Mais Azul](URL_DA_SUA_IMAGEM_AQUI.png)
+![Preview do Dashboard Sena Mais Azul](![Captura de tela 2025-06-29 224123](https://github.com/user-attachments/assets/efb14cba-499c-42f1-9c55-479e0bd0cff7)
 
 <br>
 
