@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sena Mais Azul - Revitalizando o Coração de Paris</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header class="main-header" id="main-header">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-water logo__icon"></i>
+                <h1 class="logo__text">Sena Mais Azul</h1>
+            </a>
+            <nav class="main-nav" id="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a href="#sobre" class="main-nav__link">O Projeto</a></li>
+                    <li class="main-nav__item"><a href="#tecnologia" class="main-nav__link">Tecnologia</a></li>
+                    <li class="main-nav__item"><a href="#cronograma" class="main-nav__link">Cronograma</a></li>
+                    <li class="main-nav__item"><a href="#dashboard" class="main-nav__link">Dashboard</a></li>
+                    <li class="main-nav__item"><a href="#comunidade" class="main-nav__link">Comunidade</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Alternar modo claro/escuro">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__overlay"></div>
+            <div class="hero__content">
+                <h2 class="hero__title animated-gradient-text">Revitalizando o Coração de Paris</h2>
+                <p class="hero__subtitle">Uma iniciativa tecnológica para transformar o Rio Sena em um modelo global de sustentabilidade e pureza.</p>
+                <a href="#dashboard" class="cta-button">
+                    <span>Explorar o Dashboard</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="sobre" class="content-section reveal-on-scroll">
+            <div class="container container-narrow">
+                <div class="section-title">
+                    <h3 class="section-title__subheading">O Desafio e a Solução</h3>
+                    <h2 class="section-title__heading">Um Rio que Clama por Ajuda</h2>
+                </div>
+                <div class="info-grid">
+                    <div class="card info-card">
+                        <i class="fas fa-smog info-card__icon"></i>
+                        <h4 class="info-card__title">O Problema</h4>
+                        <p class="info-card__text">Anos de poluição, enchentes e perda de biodiversidade ameaçam o ecossistema do Rio Sena, impactando a saúde pública e o equilíbrio ambiental de Paris.</p>
+                    </div>
+                    <div class="card info-card">
+                        <i class="fas fa-lightbulb info-card__icon"></i>
+                        <h4 class="info-card__title">Nossa Proposta</h4>
+                        <p class="info-card__text">O "Sena Mais Azul" utiliza tecnologia de ponta para criar um sistema de monitoramento inteligente, transparente e colaborativo, permitindo ações rápidas e eficazes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologia" class="content-section content-section--colored reveal-on-scroll">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="section-title__subheading">Como Fazemos</h3>
+                    <h2 class="section-title__heading">Nossa Arquitetura Tecnológica</h2>
+                </div>
+                <div class="info-grid">
+                    <div class="card info-card">
+                        <i class="fas fa-wifi info-card__icon"></i>
+                        <h3 class="info-card__title">Sensores IoT</h3>
+                        <p class="info-card__text">Uma rede de sensores subaquáticos mede em tempo real parâmetros cruciais como pH, turbidez, oxigênio dissolvido e temperatura.</p>
+                    </div>
+                    <div class="card info-card">
+                        <i class="fas fa-satellite-dish info-card__icon"></i>
+                        <h3 class="info-card__title">IA e Satélites</h3>
+                        <p class="info-card__text">Inteligência artificial analisa os dados para prever riscos, enquanto imagens de satélite mapeiam a poluição e a saúde da vegetação ribeirinha.</p>
+                    </div>
+                    <div class="card info-card">
+                        <i class="fas fa-chart-line info-card__icon"></i>
+                        <h3 class="info-card__title">Plataforma Integrada</h3>
+                        <p class="info-card__text">Este dashboard centraliza todas as informações, oferecendo visualizações intuitivas, alertas preditivos e um canal direto com a comunidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="cronograma" class="content-section reveal-on-scroll">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="section-title__subheading">Nossa Jornada</h3>
+                    <h2 class="section-title__heading">Marcos do Projeto</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-flag"></i></div>
+                        <div class="timeline-content">
+                            <h4>Q1 2024 - Fundação</h4>
+                            <p>O projeto "Sena Mais Azul" é oficialmente lançado com o apoio de investidores e da prefeitura de Paris.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-microchip"></i></div>
+                        <div class="timeline-content right">
+                            <h4>Q4 2024 - Primeiros Sensores</h4>
+                            <p>Instalação do lote piloto de 20 sensores IoT em pontos estratégicos do rio para coleta de dados iniciais.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-rocket"></i></div>
+                        <div class="timeline-content">
+                            <h4>Q2 2025 - Lançamento da Plataforma</h4>
+                            <p>Lançamento público deste dashboard, oferecendo transparência total dos dados da qualidade da água.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-users"></i></div>
+                        <div class="timeline-content right">
+                            <h4>Q3 2025 - Engajamento Comunitário</h4>
+                            <p>Início dos programas de voluntariado e do primeiro grande evento de limpeza das margens do Sena.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dashboard" class="content-section content-section--colored reveal-on-scroll">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="section-title__subheading">Dados em Tempo Real</h3>
+                    <h2 class="section-title__heading">Painel de Controle Ambiental</h2>
+                </div>
+                <div class="dashboard-grid">
+                    <div class="card metrics-card">
+                        <div class="metrics-grid">
+                            <div class="metric"><h4 class="metric__title">pH da Água</h4><p class="metric__value" id="ph-value">7.2</p><div class="metric__status"><span class="status-indicator good"></span>Normal</div></div>
+                            <div class="metric"><h4 class="metric__title">Turbidez (NTU)</h4><p class="metric__value" id="turbidez-value">4.8</p><div class="metric__status"><span class="status-indicator warning"></span>Atenção</div></div>
+                            <div class="metric"><h4 class="metric__title">Oxigênio (mg/L)</h4><p class="metric__value" id="oxigenio-value">8.5</p><div class="metric__status"><span class="status-indicator good"></span>Bom</div></div>
+                            <div class="metric"><h4 class="metric__title">Temperatura (°C)</h4><p class="metric__value" id="temperatura-value">19.5</p><div class="metric__status"><span class="status-indicator good"></span>Ideal</div></div>
+                        </div>
+                    </div>
+                    <div class="card chart-card">
+                        <h3 class="chart-card__title">Histórico de Qualidade</h3>
+                        <div class="chart-container"><canvas id="qualityChart"></canvas></div>
+                    </div>
+                    <div class="right-column-wrapper">
+                        <div class="card map-card">
+                            <div class="map-card__header"><h3 class="map-card__title"><i class="fas fa-map-marked-alt"></i> Mapa de Monitoramento</h3></div>
+                            <div class="map-container"><div id="map"></div></div>
+                        </div>
+                        <div class="card alerts-card">
+                            <h3 class="alerts-card__title"><i class="fas fa-brain"></i> Alertas da IA</h3>
+                            <div class="alerts-list">
+                                <div class="alert"><div class="alert__icon warning"><i class="fas fa-exclamation-triangle"></i></div><div class="alert__info"><h5>Risco de Algas</h5><p>IA prevê risco moderado de proliferação de algas na zona oeste.</p></div></div>
+                                <div class="alert"><div class="alert__icon danger"><i class="fas fa-biohazard"></i></div><div class="alert__info"><h5>Poluente Detectado</h5><p>Níveis anômalos detectados perto da Pont de Sèvres.</p></div></div>
+                                <div class="alert"><div class="alert__icon info"><i class="fas fa-check-circle"></i></div><div class="alert__info"><h5>Melhora na Qualidade</h5><p>Níveis de oxigênio na área central apresentam melhora de 5%.</p></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="comunidade" class="content-section reveal-on-scroll">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="section-title__subheading">Participe</h3>
+                    <h2 class="section-title__heading">Junte-se à Causa</h2>
+                </div>
+                <div class="comunidade-grid">
+                    <div class="card feed-noticias">
+                        <h4 class="card__title">Últimas Notícias e Ações</h4>
+                        <div class="noticia"><p><strong>Novos Sensores:</strong> Instalamos 10 novos sensores para ampliar a cobertura.</p><small>28 de Junho de 2025</small></div>
+                        <div class="noticia"><p><strong>Ação de Limpeza:</strong> Participe da nossa ação voluntária nas margens do Sena no dia 15 de Julho!</p><small>25 de Junho de 2025</small></div>
+                    </div>
+                    <div class="card form-feedback">
+                        <h4 class="card__title">Reporte um Problema ou Dê sua Sugestão</h4>
+                        <form id="feedbackForm">
+                            <input type="text" name="nome" placeholder="Seu Nome" required>
+                            <textarea name="mensagem" rows="4" placeholder="Sua mensagem..." required></textarea>
+                            <button type="submit" class="cta-button"><span>Enviar Feedback</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column footer-about">
+                    <h4 class="footer-column__title">Sena Mais Azul</h4>
+                    <p>Tecnologia e comunidade unidas pela revitalização do Rio Sena.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-column__title">Navegue</h4>
+                    <ul class="footer-links">
+                        <li><a href="#sobre" class="footer-links__link">O Projeto</a></li>
+                        <li><a href="#cronograma" class="footer-links__link">Cronograma</a></li>
+                        <li><a href="#dashboard" class="footer-links__link">Dashboard</a></li>
+                        <li><a href="#comunidade" class="footer-links__link">Comunidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-column__title">Siga-nos</h4>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social__link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer-social__link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer-social__link" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sena Mais Azul. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
