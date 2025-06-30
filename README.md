@@ -3,12 +3,31 @@
   <br><br>
   <h1>🌊 Projeto Sena Mais Azul</h1>
   <p>Um dashboard interativo e elegante para o monitoramento e revitalização do Rio Sena, em Paris.</p>
-  
-  <img src="https://img.shields.io/badge/status-concluído-green?style=for-the-badge" alt="Status do Projeto">
-  <img src="https://img.shields.io/github/license/SEU_USUARIO/sena-mais-azul?style=for-the-badge&color=blue" alt="Licença">
-  <img src="https://img.shields.io/github/languages/top/SEU_USUARIO/sena-mais-azul?style=for-the-badge&color=yellow" alt="Linguagem Principal">
-  
 </div>
+
+<br>
+
+## 🎯 Sobre o Projeto
+
+O **Sena Mais Azul** nasceu da visão de transformar o icônico Rio Sena em um símbolo de pureza e sustentabilidade. Através de uma interface web moderna e responsiva, este projeto demonstra como a tecnologia pode ser uma poderosa aliada do meio ambiente. O dashboard centraliza dados vitais sobre a qualidade da água, oferecendo visualizações intuitivas e alertas em tempo real, tornando a informação acessível a todos.
+
+<br>
+
+## 👥 Equipe EL HIDRA
+
+Este projeto é o resultado do trabalho colaborativo dos seguintes integrantes:
+
+-   **Carlos Eduardo Pires de Santana Hereman**
+-   **Kauan Santos Pedreira**
+-   **Luccas Maia Hessel**
+-   **Matheus Guilherme Madureira**
+-   **Thales Heron de Assunção Granja**
+
+<br>
+
+### Orientação
+
+Projeto desenvolvido sob a orientação da **Professora Flávia Blum**.
 
 <br>
 
@@ -25,12 +44,6 @@
 Veja o projeto em ação através do link abaixo:
 
 **[Ver demonstração ao vivo](URL_DO_SEU_GITHUB_PAGES_AQUI)**
-
-<br>
-
-## 🎯 Sobre o Projeto
-
-O **Sena Mais Azul** nasceu da visão de transformar o icônico Rio Sena em um símbolo de pureza e sustentabilidade. Através de uma interface web moderna e responsiva, este projeto demonstra como a tecnologia pode ser uma poderosa aliada do meio ambiente. O dashboard centraliza dados vitais sobre a qualidade da água, oferecendo visualizações intuitivas e alertas em tempo real, tornando a informação acessível a todos.
 
 <br>
 
@@ -116,13 +129,6 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 ---
 
 <div align="center">
-  Feito com ❤️ por <strong>[SEU NOME]</strong>
-  <br><br>
-  <a href="https://github.com/[SEU_USUARIO]" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/[SEU_LINKEDIN]" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  Feito com ❤️ pela equipe <strong>EL HIDRA</strong>
 </div>
 ```
